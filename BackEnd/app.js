@@ -38,10 +38,10 @@ app.get("/", (req, res) =>
 
 // User account info
 const connection = mysql.createConnection({
-  user: "Mesafint",
-  password: "mesafint@DataBase",
+  user: "akila",
+  password: "akila@DataBase",
   host: "localhost",
-  database: "mesafint",
+  database: "akila",
   // socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock", //path to mysql sock in MAMP
 });
 
